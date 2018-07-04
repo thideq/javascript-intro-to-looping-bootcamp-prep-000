@@ -34,4 +34,5 @@ function doWhileLoop(array) {
 array = gifts; 
 do {
   array.pop;
+  console.log(array);
 } while (array.length > 0 && maybeTrue());
