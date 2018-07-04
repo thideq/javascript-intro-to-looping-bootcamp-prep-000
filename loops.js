@@ -45,3 +45,10 @@ for (i = 1; i<25 ; i++) {
   forLoop(array, i);
 }
 console.log(array);
+
+function whileLoop(countdown) {
+  while (countdown>0) {
+    console.log(countdown);
+    countdown--;
+  }
+}
