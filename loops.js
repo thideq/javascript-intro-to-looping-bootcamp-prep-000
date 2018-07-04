@@ -31,7 +31,7 @@ do {
 function doWhileLoop(array) {
   return Math.random() >= 0.5
 }
- 
+array = gifts; 
 do {
-  console.log('doo-bee-doo-bee-doo')
-} while (maybeTrue());
+  array.pop;
+} while (array.length > 0 && maybeTrue());
