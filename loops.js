@@ -57,4 +57,4 @@ function whileLoop(countdown) {
 i = Math.random() * 20;
 console.log(i);
 // console.log((i));
-whileLoop(round(Math.random() * 20));
+whileLoop(Math.random() * 20);
