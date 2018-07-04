@@ -38,7 +38,7 @@ do {
 } while (array.length > 0 && maybeTrue());
 
 function forLoop(array, i) {
-  array.push("I am" + i + "strange loop")
+  array.push("I am " + i + " strange loop")
 }
 
 for (i = 1; i<25 ; i++) {
