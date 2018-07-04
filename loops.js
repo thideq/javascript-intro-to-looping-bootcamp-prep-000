@@ -41,7 +41,6 @@ function forLoop(array, i) {
   array.push("I am" + i + "strange loop")
 }
 
-array = {};
 for (i = 1; i<25 ; i++) {
   forLoop(array, i);
 }
