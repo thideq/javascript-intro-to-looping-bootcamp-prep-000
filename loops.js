@@ -38,10 +38,11 @@ do {
 } while (array.length > 0 && maybeTrue());
 
 function forLoop(array, i) {
-  array.push("I am ${i} strange loop")
+  array.push("I am" + i + "strange loop")
 }
+
 array = {};
-for (i = 1; i<25 ; i = i + 1) {
+for (i = 1; i<25 ; i++) {
   forLoop(array, i);
 }
 console.log(array);
