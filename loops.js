@@ -16,7 +16,6 @@ let j = 10
 
 
 do {
-  i = 0; 
   wrapGift(gifts[i]);
   i = i + 1
 } while  (i < 3) 
