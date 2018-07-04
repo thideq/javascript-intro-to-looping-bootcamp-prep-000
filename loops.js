@@ -29,7 +29,7 @@ do {
 } while (maybeTrue());
 
 function doWhileLoop(array) {
-  return Math.random() >= 0.5
+  return Math.random() >= 0.3
 }
 array = gifts; 
 do {
