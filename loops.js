@@ -14,7 +14,7 @@ let j = 10
   j = j - 1
 }
 
-
+i = 0;
 do {
   wrapGift(gifts[i]);
   i = i + 1
