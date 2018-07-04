@@ -54,3 +54,5 @@ function whileLoop(countdown) {
       }
   }
 }
+i = Math.random() * 20;
+function whileLoop(i);
